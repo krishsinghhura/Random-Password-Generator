@@ -1,0 +1,94 @@
+/* 2.#c7b198
+3. #dfd3c3
+4. #f0ece2 */
+*{
+    margin: 0;
+    padding: 0;
+    color: #e3e3e3;
+    font-style: "Poppins";
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    justify-content: center;
+    margin-left: 100px;
+}
+body{
+    background-color: #233142;
+}
+.gentxt,.rantxt{
+    font-size: 40px;
+}
+.rantxt{
+    margin-top: -20px;
+    color: #f95959;
+    text-decoration: underline 2px ;
+}
+.heading{
+    width: 300px;
+}
+.inputBox{
+    height: 50px;
+    width: 400px;
+    background-color: white;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 4px;
+}
+.input{
+    border-radius: 4px;
+    color: black;
+    padding-top: 13px;
+    width: 330px;
+    border: none;
+    padding-left: 20px;
+    font-size: 20px;
+    resize: none;
+}
+.inputBox i{
+    font-size: 20px;
+    color: #f95959;
+    margin-right: 10px;
+    padding: 17px;
+    cursor: pointer;
+}
+button{
+    border-radius: 4px;
+    margin-top: 30px;
+    background-color: #f95959;
+    padding: 10px;
+    height: 35px;
+    width: 200px;
+    border: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn p{
+    margin-left: -20px;
+}
+.btn i{
+    font-size: 20px;
+    margin-top: -2px;
+}
+#hover{
+    position: absolute;
+    font-size: small;
+    background-color: rgba(0, 0, 0, 0.452);
+    padding: 5px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    margin-left: 320px;
+}
+#arrow{
+    position: absolute;
+    margin-bottom: -20px;
+    transition: 1s;
+}
+#arrow i{
+    color: rgba(0, 0, 0, 0.452);
+    margin-left: 355px;
+}
